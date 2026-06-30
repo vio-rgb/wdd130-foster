@@ -1,0 +1,59 @@
+/* 
+--espresso: #533223ff;
+--rust-brown: #983212ff;
+--onyx: #080A07ff;
+--gunmetal: #343A3Bff;
+--honey-bronze: #FCBF63ff; */
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+table{
+    margin: 0 auto;
+}
+
+#prm_clr {
+    background-color:#343A3Bff;
+    height: 25px;
+}
+
+#snd_clr {
+    background-color: #080a07;
+}
+
+#acc_clr1 {
+    background-color:#fcbf63;
+}
+
+#acc_clr2{
+    background-color: #533223;
+}
+
+#acc_clr3 {
+    background-color: #983212;
+}
+
+nav{
+    background-color: #343a3bff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+a{
+    color: #fcbf63;
+    text-decoration: none;
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+a:hover{
+    background-color:#983212;
+}
