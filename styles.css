@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+
+.hero img { 
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+body {
+    margin: 0;
+    background-color: #080a07;
+    color: white;
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+
+
+}
+
+h1,h2,h3 {
+    color: #FCBF63;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    border-bottom: 2px solid #983212;
+}
+
+.logo img {
+    width: 110px;
+}
+nav {
+    display: flex;
+    gap: 26px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid;
+}
+nav a:hover{ 
+    color: #FCBF63;
+    border-bottom-color: #FCBF63;
+}
+nav a.active {
+    border-bottom-color: #FCBF63;
+    color: #FCBF63;
+}
+footer {
+    background-color: #533223;
+    border-top: 2px solid #983212;
+    padding: 24px;
+    text-align: center;
+    margin-top: 40px;
+}
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.intro { 
+    padding: 24px 48px;
+    border-bottom: 2px solid #983212;
+}
+.content {
+    padding: 28px 48px 36px;
+}
+.card-grid {
+    display: flex;
+    gap: 20px;
+}
+.card {
+    flex: 1;
+    background-color: #533223;
+    border: 2px solid #983212;
+    border-radius: 6px;
+    padding: 16px;
+}
+.card img {
+    width: 80px;
+}
+.button { display: inline-block;
+background-color: #983212;
+color: white;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 14px;
+padding: 10px 20px;
+border-radius: 4px;
+margin-top: 12px;
+}
+.button:hover {
+    background-color: #FCBF63;
+    color: #080a07;
+}
